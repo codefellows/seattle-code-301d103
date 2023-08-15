@@ -1,0 +1,22 @@
+[
+  {
+    "name": "Pikachu",
+    "type": "Electric",
+    "image_url": "https://upload.wikimedia.org/wikipedia/en/thumb/7/73/Pikachu_artwork_for_Pok%C3%A9mon_Red_and_Blue.webp/220px-Pikachu_artwork_for_Pok%C3%A9mon_Red_and_Blue.webp.png"
+  },
+  {
+    "name": "Charizard",
+    "type": "Fire",
+    "image_url": "https://assets.pokemon.com/assets/cms2/img/pokedex/full/006.png"
+  },
+  {
+    "name": "Bulbasaur",
+    "type": "Grass",
+    "image_url": "https://archives.bulbagarden.net/media/upload/f/fb/0001Bulbasaur.png"
+  },
+  {
+    "name": "Squirtle",
+    "type": "Water",
+    "image_url": "https://img.pokemondb.net/artwork/large/squirtle.jpg"
+  }
+]

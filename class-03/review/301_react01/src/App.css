@@ -1,0 +1,76 @@
+#root {
+  max-width: 1280px;
+  margin: 0 auto;
+  padding: 2rem;
+  text-align: center;
+  background-color: #0c0227; 
+  color: #f7c81d; 
+  font-family: 'Arial', sans-serif; 
+}
+
+.logo {
+  height: 6em;
+  padding: 1.5em;
+  will-change: filter;
+  transition: filter 300ms;
+}
+.logo:hover {
+  filter: drop-shadow(0 0 2em #646cffaa);
+}
+.logo.react:hover {
+  filter: drop-shadow(0 0 2em #61dafbaa);
+}
+
+@keyframes logo-spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
+
+@media (max-width: 768px) {
+  .col {
+    flex-basis: 50%;
+  }
+}
+
+@media (max-width: 570px) {
+  .col {
+    flex-basis: 100%;
+  }
+}
+
+.card {
+  padding: 2em;
+  background-color: #18104c; 
+  color: #f7c81d; 
+  border: 2px solid #f7c81d; 
+  border-radius: 10px;
+  box-shadow: 0 0 10px rgba(247, 200, 29, 0.3); 
+}
+
+.heart-icon {
+  width: 20px;
+  height: 20px;
+  margin-right: 5px;
+}
+
+.read-the-docs {
+  color: #888;
+}
+
+
+.card:hover {
+  transform: scale(1.05); 
+  transition: transform 0.3s ease-in-out;
+  filter: hue-rotate(60deg); 
+}
+
+
+body {
+  font-family: 'Roboto', sans-serif;
+}
+
+/* ChatGPT help to provide CSS, .card:hover and #root edits */

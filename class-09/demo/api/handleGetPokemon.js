@@ -10,7 +10,7 @@ const handleGetPokemon = async (req, res, next) => {
   }
 
   try {
-    let response = await axios.get(`https://pokeapi.co/api/v/pokemon/${name}`);
+    let response = await axios.get(`https://pokeapi.co/api/v2/pokemon/${name}`);
     res.json(response.data);
   } catch (e) {
     console.log(e);

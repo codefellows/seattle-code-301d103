@@ -1,0 +1,15 @@
+{
+  "name": "challenges",
+  "version": "1.0.0",
+  "description": "",
+  "main": "challenges-11.test.js",
+  "scripts": {
+    "test": "jest"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "jest": "^29.6.4"
+  }
+}

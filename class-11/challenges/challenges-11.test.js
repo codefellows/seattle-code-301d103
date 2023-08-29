@@ -34,6 +34,33 @@ For example, count(5, [[1, 3, 5, 7, 9], [5, 5, 5], [1, 2, 3]]) returns 4.
 
 const count = (target, input) => {
   // Solution code here...
+  // let result = 0;
+
+  let result = input.reduce((acc, nestedArray) => {
+
+    nestedArray.forEach(number => {
+      if (number === target) {
+        acc++;
+      }
+    });
+    return acc;
+
+  }, 0);
+
+  // let fives = input.filter(filterFives).reduce();
+
+  // for (let i = 0; i < input.length; i++) {
+  //   let nestedArray = input[i];
+
+  //   for (let j = 0; j < nestedArray.length; j++) {
+  //     let currentNumber = nestedArray[j];
+  //     if (currentNumber === target) {
+  //       result++;
+  //     }
+  //   }
+  // }
+
+  return result;
 };
 
 /* ------------------------------------------------------------------------------------------------

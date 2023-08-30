@@ -89,6 +89,7 @@ Return either true or false.
 
 const validatePhoneNumber = (phoneNumber) => {
   // Solution code here...
+  return Boolean(phoneNumber.match(/^(?:\(\d{3}\)|\d{3})[-\s]?\d{3}[-\s]?\d{4}$/gm));
 };
 
 /* ------------------------------------------------------------------------------------------------
